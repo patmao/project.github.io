@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BMR Metric Calculator</title>
+</head>
+<div style="padding:20px; margin:100px; background-color:pink; border:1px solid black;">
+    <img src="https://img.lovepik.com/element/40124/7213.png_1200.png" width="50px" />
+    <h2 align="center">BMR Metric Calculator</h2>
+    <nav>
+        <ul>
+            <li><a href="https://localhost:44380/Assignment%201%20for%20COMP%20125/Imperial.html">Imperial</a></li>
+        </ul>
+    </nav>
+    <body>
+        <select id="Gender" name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <p></p>
+        <h4>select your activity level:</h4>&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="activityLevel1" id="activityLevel1"><span class="white" value="1.2">sedentary (Less than 1 hour of intensional exercise a week)(1.2)</span><br>&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="activityLevel2" id="activityLevel2"><span class="white" value="1.375">lightly active (Light Exercise or sports 1-3 days per week)(1.375)</span><br>&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="activityLevel3" id="activityLevel3"><span class="white" value="1.55">moderately active (Moving frequently through the day (construction work, stocking shelves, cleaning, etc.) and/or exercise 3-5 days/week)(1.55)</span><br>&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="activityLevel4" id="activityLevel4"><span class="white" value="1.725">very active (Intensional exercise or sports 6-7 days a week)(1.725)</span><br>&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="activityLevel5" id="activityLevel5"><span class="white" value="1.9">super active(Intense activity through the day such as manual agricultural work or competitive athletic training)(1.9)</span><br>
+        </br>
+        <label for="age">Age: <input type="Number" id="age" name="age" /></label>
+        <p></p>
+        <label for="height">Your height (in cm): <input type="Number" id="height" name="height" /></label>
+        <p></p>
+        <label for="weight">Your weight (in kg): <input type="Number" id="weight" name="weight" /></label>
+        <p></p>
+
+        <input type="button" id="submit" value="CalculateBMR" />
+</div>
+    <script src="Assignment 1.js"></script>
+</body>
+</html>
